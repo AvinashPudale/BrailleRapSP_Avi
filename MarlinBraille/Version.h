@@ -35,7 +35,7 @@
   /**
    * Marlin release version identifier
    */
-  #define SHORT_BUILD_VERSION "1.1.8"
+  #define SHORT_BUILD_VERSION " braille 1.0"
 
   /**
    * Verbose version identifier which should contain a reference to the location
@@ -65,12 +65,12 @@
    * standards such as the use of ASCII, "echo:" and "error:" line prefixes, etc.
    * (Other behaviors are given by the firmware version and capabilities report.)
    */
-  #define PROTOCOL_VERSION "1.0"
+  #define PROTOCOL_VERSION "braille 1.0"
 
   /**
    * Defines a generic printer name to be output to the LCD after booting Marlin.
    */
-  #define MACHINE_NAME "3D Printer"
+  #define MACHINE_NAME "braille printer"
 
   /**
    * The SOURCE_CODE_URL is the location where users will find the Marlin Source
@@ -89,6 +89,6 @@
    * The WEBSITE_URL is the location where users can get more information such as
    * documentation about a specific Marlin release.
    */
-  #define WEBSITE_URL "http://marlinfw.org"
+  #define WEBSITE_URL "avinashpudale@gmail"
 
 #endif // USE_AUTOMATIC_VERSIONING
