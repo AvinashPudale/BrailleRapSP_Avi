@@ -120,7 +120,10 @@
 // Please choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
   //#define MOTHERBOARD BOARD_RAMPS_14_EFB
-  #define MOTHERBOARD BOARD_RAMPS_14_SF
+ //#define MOTHERBOARD BOARD_RAMPS_14_SF
+   #define MOTHERBOARD BOARD_MKS_13                // MKS v1.3 or 1.4 (maybe higher)
+
+
 #endif
 
 // Optional custom name for your RepStrap or other custom machine
@@ -152,7 +155,7 @@
   #endif
 #endif
 */
-//#define HAS_BUZZER 1
+#define HAS_BUZZER 1
 //#define BEEPER_PIN 33 // beeper on Aux 4
 //#define LCD_FEEDBACK_FREQUENCY_HZ 440
 //#define LCD_FEEDBACK_FREQUENCY_DURATION_MS 250

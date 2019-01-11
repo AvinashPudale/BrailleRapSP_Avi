@@ -49,7 +49,7 @@
   #define MSG_SD_REMOVED                      _UxGT("Card removed")
 #endif
 #ifndef MSG_LCD_ENDSTOPS
-  #define MSG_LCD_ENDSTOPS                    _UxGT("Endstops") // Max length 8 characters
+  #define MSG_LCD_ENDSTOPS                    _UxGT("press") // Max length 8 characters
 #endif
 #ifndef MSG_MAIN
   #define MSG_MAIN                            _UxGT("Main")
